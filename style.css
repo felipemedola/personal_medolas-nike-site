@@ -101,16 +101,31 @@ main {
 
 form {
 	margin: 40px 0;
+	color: black;
 }
 
-form label {
+form label, form p {
 	display:block;
 	font-size: 20px;
 	margin: 10px 0;
 }
 
-form input {
+.input-padrao {
 	display: block;
+	margin: 4px 0 20px;
+	padding: 7px 7px;
+	width: 50%;
+}
+
+.opcao-horario {
+	margin: 20px 0 0 0;
+}
+
+.checkbox {
+	margin: 10px 0;
+}
+
+.button {
 	margin: 4px 0 20px;
 	padding: 7px 7px;
 	width: 50%;
