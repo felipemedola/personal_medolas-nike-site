@@ -93,3 +93,23 @@ footer {
 	font-size: 18px;
 	margin: 20px 0 0;
 }
+
+form {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form label {
+	font-size: 20px;
+	margin: 7px 0;
+}
+
+form input, form textarea {
+	display: block;
+	margin: 7px 0;
+	width: 50%;
+}
+
+.opcao {
+	display: inline;
+}
