@@ -1,50 +1,95 @@
+body {
+	background: rgb(237,242,246);
+	background: linear-gradient(360deg, rgba(237,242,246,1) 0%, rgba(185,219,248,1) 24%, rgba(114,184,254,1) 47%, rgba(65,145,241,1) 76%, rgba(41,118,215,1) 100%);
+}
+
 header {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
+    padding: 20px 0;
 }
 
-#banner {
-    width: 100%;
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
-.principal {
-    text-align: center;
-    font-size: 20px;
+nav {
+	position: absolute;
+	top: 120px;
+	right: 0%;
 }
 
-h2 {
-    font-size: 30px;
+nav a:hover {
+    color: #f3ff27;
+    text-decoration: underline;
 }
 
-#missao {
-    font-size: 22px;
-    font-style: italic;
-}
-
-#missao strong {
-    color: red;
-}
-
-h3 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-ul {
+nav li {
     display: inline-block;
-    margin-top: 15%;
-    padding: 10%;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+	text-align: center;
+	width: 30%;
     vertical-align: top;
+    margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ffffff;
+	border-radius: 10px;
 }
 
-.itens {
-    font-size: 28px;
-    font-style: italic;
+.produtos li:hover {
+    border-color: #baf400;
 }
 
-.imagembeneficios {
-    display: inline-block;
-    margin-top: 20px;
+.produtos li:active {
+	border-color: #09ff00;
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+	font-weight: bolder;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 18px;
+	margin: 20px 0 0;
 }
