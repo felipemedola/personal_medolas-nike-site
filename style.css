@@ -126,7 +126,17 @@ form label, form p {
 }
 
 .button {
-	margin: 4px 0 20px;
-	padding: 7px 7px;
 	width: 50%;
+	padding: 7px 0;
+	font-size: 18px;
+	font-weight: bold;
+	background: #f3ff77;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 1s all;
+}
+
+.button:hover {
+	background: #baf400;
+	transform: scale(1.03);
 }

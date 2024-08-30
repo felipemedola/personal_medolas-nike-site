@@ -23,13 +23,13 @@
 
             <main>
                 <form>
-                    <label for="registro-nome">Nome<input type="text" id="registro-nome" class="input-padrao"></label>
+                    <label for="registro-nome">Nome<input type="text" id="registro-nome" class="input-padrao" required></label>
     
-                    <label for="registro-email">Email<input type="email" id="registro-email" class="input-padrao"></label>
+                    <label for="registro-email">Email<input type="email" id="registro-email" class="input-padrao" placeholder="seuemail@dominio.com" required></label>
     
-                    <label for="registro-telefone">Telefone<input type="tel" id="registro-telefone" class="input-padrao"></label>
+                    <label for="registro-telefone">Telefone<input type="tel" id="registro-telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required></label>
     
-                    <label>Mensagem<textarea cols="30" rows= 10 class="input-padrao"></textarea></label>
+                    <label>Mensagem<textarea cols="30" rows= 10 class="input-padrao" required></textarea></label>
     
                     <div>
                         <p>Como prefere nosso contato?</p>
@@ -38,7 +38,7 @@
     
                         <label for="radio-telefone"><input type="radio" value="radio-telefone" id="radio-telefone" name="contato"> Telefone</label>
     
-                        <label for="radio-whatsapp"><input type="radio" value="radio-whatsapp" id="radio-whatsapp" name="contato"> Whatsapp</label>
+                        <label for="radio-whatsapp"><input type="radio" value="radio-whatsapp" id="radio-whatsapp" name="contato" checked> Whatsapp</label>
                     </div>
 
                     <div class="opcao-horario">
@@ -51,7 +51,7 @@
                         </select>
                     </div>
 
-                    <label for="novidade"><input type="checkbox" id="novidade" class="checkbox"> Gostaria de receber nossas novidades por e-mail</label>
+                    <label for="novidade"><input type="checkbox" id="novidade" class="checkbox" checked> Gostaria de receber nossas novidades por e-mail</label>
     
                     <input type="submit" value="Enviar" class="button">
                 </form>
