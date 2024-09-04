@@ -1,6 +1,9 @@
 body {
 	background: rgb(237,242,246);
 	background: linear-gradient(360deg, rgba(237,242,246,1) 0%, rgba(185,219,248,1) 24%, rgba(114,184,254,1) 47%, rgba(65,145,241,1) 76%, rgba(41,118,215,1) 100%);
+
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
 }
 
 header {
@@ -191,9 +194,7 @@ td, th {
 .principal p {
 	font-size: 1em;
 	margin: 0 0 1em;
-	font-family: "Roboto", sans-serif;
 	font-weight: 400;
-	font-style: normal;
 }
 
 .principal strong {
@@ -219,16 +220,12 @@ td, th {
 	margin: 0 0 2em;
 	text-align: center;
 	font-size: 1em;
-	font-family: "Roboto", sans-serif;
 	font-weight: 400;
-	font-style: normal;
 }
 
 .beneficios {
 	display: inline-block;
 }
-
-
 
 .video {
 	width: 940px;
