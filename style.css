@@ -1,14 +1,26 @@
 body {
-	background: rgb(237,242,246);
-	background: linear-gradient(360deg, rgba(237,242,246,1) 0%, rgba(185,219,248,1) 24%, rgba(114,184,254,1) 47%, rgba(65,145,241,1) 76%, rgba(41,118,215,1) 100%);
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 }
 
 header {
+	background: #2976D7;
     padding: 20px 0;
 	border-bottom: 4px dashed rgb(255, 255, 255);
-	margin-bottom: 7px;
+}
+
+main {
+	background: rgb(41,118,215);
+	background: linear-gradient(180deg, rgba(41,118,215,1) 11%, rgba(65,145,241,1) 22%, rgba(114,184,254,1) 33%, rgba(185,219,248,1) 44%, rgba(237,242,246,1) 51%, rgba(185,219,248,1) 58%, rgba(114,184,254,1) 69%, rgba(65,145,241,1) 80%, rgba(41,118,215,1) 91%);
+	margin: 0;
+    padding: 0;
+}
+
+footer {
+	background: #2976D7;
+	text-align: center;
+	padding: 20px 0;
+	border-top: 4px dashed rgb(255, 255, 255);
 }
 
 .caixa {
@@ -23,7 +35,6 @@ nav {
 	right: 0%;
 }
 
-
 nav li {
     display: inline-block;
     margin: 0 0 0 15px;
@@ -32,7 +43,6 @@ nav li {
 nav li:hover {
 	transition: 1s all;
 	transform: scale(1.04);
-	color: #f3ff27;
 }
 
 nav a {
@@ -43,6 +53,10 @@ nav a {
 	font-family: "Roboto", sans-serif;
 	font-weight: bold;
 	font-style: normal;
+}
+
+nav a:hover {
+	color: #f3ff27;
 }
 
 .produtos {
@@ -89,11 +103,6 @@ nav a {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 10px;
-}
-
-footer {
-	text-align: center;
-	padding: 40px 0;
 }
 
 .copyright {
@@ -164,7 +173,10 @@ td, th {
 /* CSS DA PÁGINA INICIAL */
 
 .banner {
-	width:100%;
+	display: block;
+    width: 100%; 
+    margin: 0; 
+    padding: 0;
 }
 
 .principal {
@@ -175,7 +187,7 @@ td, th {
 .titulo-principal {
 	text-align: center;
 	font-size: 3em;
-	margin: 1em 0 1em;
+	padding: 1em 0 1em;
 	font-family: "Anton", sans-serif;
   	font-weight: 400;
   	font-style: normal;
@@ -191,7 +203,7 @@ td, th {
 
 .principal p {
 	width: 770px;
-	font-size: 1em;
+	font-size: 18px;
 	margin: 0 0 1em;
 	font-weight: 400;
 	text-align: center;
@@ -208,7 +220,7 @@ td, th {
 .utensilios {
 	width: 150px;
 	float: left;
-	margin: 0 20px 20px 0;
+	margin: 0 20px 50px 0;
 }
 
 .mapa {
@@ -219,7 +231,7 @@ td, th {
 .mapa p {
 	margin: 0 0 2em;
 	text-align: center;
-	font-size: 1em;
+	font-size: 18px;
 	font-weight: 400;
 }
 
@@ -240,7 +252,7 @@ td, th {
 
 .itens:before {
 	font-size: 1em;
-	content: "➥ ";
+	content: "➔ ";
 }
 
 .imagem-beneficios {
@@ -250,15 +262,31 @@ td, th {
 
 .video {
 	width: 940px;
-	margin: 1em auto;
+	margin: 2em auto 0;
+	display: block; 
+    padding: 2em 0;
 }
 
 /* CSS DA PÁGINA INICIAL */
-.empresa-conteudo {
-	width: 940px;
-	margin: 0 auto;
-}
 
 .escritorio {
-	width: 80%;
+	display: block;
+    width: 100%; 
+    margin: 0; 
+    padding: 0;
+}
+
+.empresa-conteudo {
+	margin: 0 auto;
+	width: 730px;
+}
+
+.empresa-conteudo p{
+	line-height: 1.42857143;
+    color: #000000;
+	box-sizing: border-box;
+	display: block;
+	font-size: 18px;
+	margin: 0 auto;
+	width: 730px;
 }
