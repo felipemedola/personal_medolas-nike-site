@@ -4,23 +4,24 @@ body {
 }
 
 header {
-	background: #2976D7;
+	background: linear-gradient(to bottom, #B0E0E6, #87CEEB);
+	color: white;
     padding: 20px 0;
 	border-bottom: 4px dashed rgb(255, 255, 255);
 }
 
 main {
-	background: rgb(41,118,215);
-	background: linear-gradient(180deg, rgba(41,118,215,1) 11%, rgba(65,145,241,1) 22%, rgba(114,184,254,1) 33%, rgba(185,219,248,1) 44%, rgba(237,242,246,1) 51%, rgba(185,219,248,1) 58%, rgba(114,184,254,1) 69%, rgba(65,145,241,1) 80%, rgba(41,118,215,1) 91%);
+	background: linear-gradient(to bottom, #87CEEB, #00BFFF, #1E90FF, #4682B4);
 	margin: 0;
     padding: 0;
 }
 
 footer {
-	background: #2976D7;
-	text-align: center;
-	padding: 20px 0;
-	border-top: 4px dashed rgb(255, 255, 255);
+		background-color: #4682B4;
+		text-align: center;
+		color: white;
+		padding: 20px 0;
+		border-top: 4px dashed rgb(255, 255, 255);
 }
 
 .caixa {
