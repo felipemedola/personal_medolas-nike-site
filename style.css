@@ -37,7 +37,7 @@ nav {
 
 nav li {
     display: inline-block;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 20px;
 }
 
 nav li:hover {
@@ -59,118 +59,20 @@ nav a:hover {
 	color: #f3ff27;
 }
 
-.produtos {
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
-}
-
-.produtos li {
-    display: inline-block;
-	text-align: center;
-	width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	border: 2px solid #ffffff;
-	border-radius: 10px;
-}
-
-.produtos li:hover {
-    border-color: #baf400;
-}
-
-.produtos li:active {
-	border-color: #09ff00;
-}
-
-.produtos li:hover h2 {
-	font-size: 34px;
-	font-weight: bolder;
-}
-
-.produtos h2 {
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.produto-descricao {
-	font-size: 18px;
-}
-
-.produto-preco {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
-}
-
 .copyright {
 	color: #000000;
 	font-size: 18px;
 	margin: 20px 0 0;
 }
 
-form {
-	margin: 40px 0;
-	color: black;
-}
-
-form label, form p {
-	display:block;
-	font-size: 20px;
-	margin: 10px 0;
-}
-
-.input-padrao {
-	display: block;
-	margin: 4px 0 20px;
-	padding: 7px 7px;
-	width: 50%;
-}
-
-.opcao-horario {
-	margin: 20px 0 0 0;
-}
-
-.checkbox {
-	margin: 10px 0;
-}
-
-.button {
-	width: 50%;
-	padding: 7px 0;
-	font-size: 18px;
-	font-weight: bold;
-	background: #f3ff77;
-	border-radius: 8px;
-	cursor: pointer;
-	transition: 1s all;
-}
-
-.button:hover {
-	background: #baf400;
-	transform: scale(1.03);
-}
-
-table {
-	margin: 40px 0 0;
-}
-
-thead {
-	background-color: white;
-	color: #000000;
-	font-weight: bold;
-	font-size: 20px;
-}
-
-td, th {
-	border: 1px solid black;
-	padding: 10px;
+.config-titulo-principal {
+	width: 940px;
+	margin: 0px auto;
 	text-align: center;
+	cursor: default;
 }
 
-/* CSS DA PÁGINA INICIAL */
+/* -=-=-=-=-=-=- CSS DA PÁGINA >>> HOME <<< -=-=-=-=-=-=- */
 
 .banner {
 	display: block;
@@ -185,6 +87,7 @@ td, th {
 }
 
 .titulo-principal {
+	margin: 0 auto;
 	text-align: center;
 	font-size: 3em;
 	padding: 1em 0 1em;
@@ -192,7 +95,7 @@ td, th {
   	font-weight: 400;
   	font-style: normal;
 	text-transform: uppercase;
-	display: block;
+	display: inline-block;
 	clear: left;
 }
 
@@ -201,12 +104,16 @@ td, th {
 	color: white;
 }
 
+.conteudo-principal {
+	margin: 0 auto;
+	width: 730px;
+}
+
 .principal p {
-	width: 770px;
+	text-align: center;
 	font-size: 18px;
 	margin: 0 0 1em;
 	font-weight: 400;
-	text-align: center;
 }
 
 .principal strong {
@@ -218,9 +125,10 @@ td, th {
 }
 
 .utensilios {
+	position: relative;
 	width: 150px;
+	left: -7%;
 	float: left;
-	margin: 0 20px 50px 0;
 }
 
 .mapa {
@@ -268,7 +176,11 @@ td, th {
     padding: 2em 0;
 }
 
-/* CSS DA PÁGINA INICIAL */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+
+
+/* -=-=-=-=-=-=- CSS DA PÁGINA >>> A EMPRESA <<< -=-=-=-=-=-=- */
 
 .escritorio {
 	display: block;
@@ -291,3 +203,128 @@ td, th {
 	margin: 0 auto;
 	width: 730px;
 }
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+
+
+/* -=-=-=-=-=-=- CSS DA PÁGINA >>> PRODUTOS <<< -=-=-=-=-=-=- */
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+	text-align: center;
+	width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #baf400;
+}
+
+.produtos li:active {
+	border-color: #09ff00;
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+	font-weight: bolder;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+
+
+/* -=-=-=-=-=-=- CSS DA PÁGINA >>> CONTATO <<< -=-=-=-=-=-=- */
+
+form {
+	padding: 40px 0 0;
+	margin: 0 0 40px;
+	color: black;
+}
+
+.formulario {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form label, form p {
+	display:block;
+	font-size: 20px;
+	margin: 0;
+}
+
+.input-padrao {
+	display: block;
+	margin: 4px 0 20px;
+	padding: 7px 7px;
+	width: 50%;
+}
+
+.opcao-horario {
+	margin: 20px 0 0 0;
+}
+
+.checkbox {
+	margin: 10px 0;
+}
+
+.button {
+	width: 50%;
+	padding: 7px 0;
+	font-size: 18px;
+	font-weight: bold;
+	background: #f3ff77;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 1s all;
+}
+
+.button:hover {
+	background: #baf400;
+	transform: scale(1.03);
+}
+
+.tabela-horario {
+	padding: 0 0 40px;
+}
+
+thead {
+	background-color: white;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
