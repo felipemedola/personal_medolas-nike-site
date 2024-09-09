@@ -329,3 +329,156 @@ td, th {
 }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* MAX WIDTH = 480PX --------------------- MAX WIDTH = 480PX
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+@media screen and (max-width: 480px) {
+
+	header {
+		background: linear-gradient(to bottom, #B0E0E6, #87CEEB);
+		color: white;
+		padding: 0 0 15px;
+		border-bottom: 4px dashed rgb(255, 255, 255);
+	}
+
+	footer {
+		background-color: #4682B4;
+		text-align: center;
+		color: white;
+		padding: 15px 0;
+		border-top: 4px dashed rgb(255, 255, 255);
+	}
+
+	nav {
+		text-align: center;
+		position: static;
+	}
+
+	nav a {
+		color: rgb(0, 0, 0);
+		font-size: 18px;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-family: "Roboto", sans-serif;
+		font-weight: bold;
+		font-style: normal;
+	}
+
+	nav li {
+		display: inline-block;
+		margin: 0 0 0 12px;
+	}
+
+	.copyright {
+		color: #000000;
+		font-size: 14px;
+		margin: 10px 0 0;
+	}
+
+	/* -=-=-=-=-=-=- CSS DA PÁGINA >>> HOME <<< -=-=-=-=-=-=- */
+
+	.caixa, .principal, .config-titulo-principal, .conteudo-principal, .conteudo-beneficios, .video {
+		width: auto;
+	}
+
+	.principal, .beneficios {
+		margin: 0 15px 0 15px;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.principal {
+		text-align: center;
+	}
+
+	.titulo-principal {
+		margin: 0 auto;
+		text-align: center;
+		font-size: 2em;
+		padding: 1em 0 1em;
+		font-family: "Anton", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		text-transform: uppercase;
+		display: inline-block;
+		clear: left;
+	}
+
+	.principal p {
+		text-align: center;
+		font-size: 14px;
+		margin: 0 0 1em;
+		font-weight: 400;
+	}
+
+	.imagem-principal {
+		display: inline-block;
+	}
+
+	.utensilios {
+		width: 75px;
+		margin: -30px 0 0;
+	}
+
+	.mapa p {
+		text-align: center;
+		font-size: 14px;
+		margin: 0 0 1em;
+		font-weight: 400;
+	}
+
+	.itens {
+		text-align: justify;
+		font-size: 14px;
+		margin: 0 0 1em;
+		font-weight: 400;
+		line-height: 1.5;
+	}
+	
+	.itens:before {
+		font-size: 14px;
+		content: "➔ ";
+	}
+
+	.conteudo-beneficios {
+		display: inline-block;
+		text-align: center;
+	}
+
+	.lista-beneficios {
+		width: 100%;
+		text-align: justify;
+	}
+
+	.imagem-beneficios {
+		margin: 0 auto -60px;
+		width: 40%;
+	}
+
+	/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+	/* -=-=-=-=-=-=- CSS DA PÁGINA >>> A EMPRESA <<< -=-=-=-=-=-=- */
+
+	.empresa-conteudo {
+		margin: 0 auto;
+		width: auto;
+	}
+	
+	.empresa-conteudo p{
+		line-height: 1.42857143;
+		color: #000000;
+		box-sizing: border-box;
+		display: block;
+		font-size: 14px;
+		font-weight: 400;
+		margin: 0 auto;
+		width: auto;
+		margin: 0 15px 0 15px;
+	}
+
+}
+
+
+
