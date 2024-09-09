@@ -329,7 +329,9 @@ td, th {
 }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
 /* MAX WIDTH = 480PX --------------------- MAX WIDTH = 480PX
+
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 @media screen and (max-width: 480px) {
@@ -374,6 +376,10 @@ td, th {
 		font-size: 14px;
 		margin: 10px 0 0;
 	}
+
+	/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+
 
 	/* -=-=-=-=-=-=- CSS DA PÁGINA >>> HOME <<< -=-=-=-=-=-=- */
 
@@ -459,6 +465,8 @@ td, th {
 
 	/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
+
+
 	/* -=-=-=-=-=-=- CSS DA PÁGINA >>> A EMPRESA <<< -=-=-=-=-=-=- */
 
 	.empresa-conteudo {
@@ -478,7 +486,52 @@ td, th {
 		margin: 0 15px 0 15px;
 	}
 
-}
+	}/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 
 
+	/* -=-=-=-=-=-=- CSS DA PÁGINA >>> PRODUTOS <<< -=-=-=-=-=-=- */
+
+	.produtos {
+		width: auto;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	.produtos li {
+		margin: 15px 0;
+		display: inline-block;
+		text-align: center;
+		width: 80%;
+		box-sizing: border-box;
+		border: 2px solid #ffffff;
+		border-radius: 10px;
+	}
+	
+	.produtos li:hover {
+		border-color: #baf400;
+	}
+	
+	.produtos li:active {
+		border-color: #09ff00;
+	}
+	
+	.produtos li:hover h2 {
+		font-size: 19px;
+		font-weight: bolder;
+	}
+	
+	.produtos h2 {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+	.produto-descricao {
+		font-size: 14px;
+	}
+	
+	.produto-preco {
+		font-size: 14px;
+		font-weight: bold;
+		margin-top: 10px;
+	}
