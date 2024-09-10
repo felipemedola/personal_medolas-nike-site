@@ -330,11 +330,11 @@ td, th {
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
-/* MAX WIDTH = 480PX --------------------- MAX WIDTH = 480PX
+/* MAX WIDTH = 1300PX ------------------- MAX WIDTH = 1300PX
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1300px) {
 
 	header {
 		background: linear-gradient(to bottom, #B0E0E6, #87CEEB);
@@ -388,7 +388,7 @@ td, th {
 	}
 
 	.principal, .beneficios {
-		margin: 0 15px 0 15px;
+		margin: 0 24px 0 24px;
 	}
 
 	h1 {
@@ -417,6 +417,8 @@ td, th {
 		font-size: 14px;
 		margin: 0 0 1em;
 		font-weight: 400;
+		line-height: 1.4;
+		padding: 8px;
 	}
 
 	.imagem-principal {
@@ -469,13 +471,17 @@ td, th {
 
 	/* -=-=-=-=-=-=- CSS DA PÁGINA >>> A EMPRESA <<< -=-=-=-=-=-=- */
 
+	.empresa {	
+		margin: 0 24px 0 24px;
+	}
+
 	.empresa-conteudo {
 		margin: 0 auto;
 		width: auto;
 	}
 	
 	.empresa-conteudo p{
-		line-height: 1.42857143;
+		line-height: 1.4;
 		color: #000000;
 		box-sizing: border-box;
 		display: block;
@@ -483,7 +489,7 @@ td, th {
 		font-weight: 400;
 		margin: 0 auto;
 		width: auto;
-		margin: 0 15px 0 15px;
+		padding: 0 0 8px;
 	}
 
 	/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
@@ -496,17 +502,19 @@ td, th {
 		width: auto;
 		padding: 0;
 		text-align: center;
+		padding: 24px 0 0;
 	}
 	
 	.produtos li {
-		margin: 15px 0;
+		margin: 0 0 24px;
 		display: inline-block;
 		text-align: center;
-		width: 80%;
+		width: 90%;
 		box-sizing: border-box;
 		border: 2px solid #ffffff;
 		border-radius: 10px;
 	}
+
 	
 	.produtos li:hover {
 		border-color: #baf400;
@@ -545,7 +553,8 @@ td, th {
 	.container {
 		display: flex;
   		justify-content: center;
-		padding: 20px 0;
+		margin: 0 24px 0 24px;
+		padding: 24px 0;
 	}
 
 	form {
@@ -561,8 +570,11 @@ td, th {
 	form label, form p {
 		display:block;
 		font-size: 14px;
+		font-weight: 400;
+		line-height: 1.4;
 		margin: 0;
 		padding: 0;
+
 	}
 	
 	.input-padrao {
@@ -598,6 +610,7 @@ td, th {
 	}
 	
 	.botaoEnviar:hover {
+		color: #000000;
 		background: #baf400;
 		transform: scale(1.03);
 	}
@@ -611,14 +624,14 @@ td, th {
 	}
 	
 	thead {
-		background-color: white;
+		background-color: rgb(255, 255, 255);
 		color: #000000;
 		font-weight: bold;
 		font-size: 18px;
 	}
 	
 	td, th {
-		border: 1px solid black;
+		border: 1.2px solid black;
 		padding: 10px;
 		text-align: center;
 	}
