@@ -334,7 +334,7 @@ td, th {
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1170px) {
 
 	header {
 		background: linear-gradient(to bottom, #B0E0E6, #87CEEB);
