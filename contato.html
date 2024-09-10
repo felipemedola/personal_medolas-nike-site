@@ -26,80 +26,86 @@
             </header>
 
             <main>
-                <div class="formulario">
-                    <form>
-                        <label for="registro-nome">Nome<input type="text" id="registro-nome" class="input-padrao" required></label>
-        
-                        <label for="registro-email">Email<input type="email" id="registro-email" class="input-padrao" placeholder="seuemail@dominio.com" required></label>
-        
-                        <label for="registro-telefone">Telefone<input type="tel" id="registro-telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required></label>
-        
-                        <label>Mensagem<textarea cols="30" rows= 10 class="input-padrao" required></textarea></label>
-        
-                        <div>
-                            <p>Como prefere nosso contato?</p>
-        
-                            <label for="radio-email"><input type="radio" value="radio-email" id="radio-email" name="contato"> Email</label>
-        
-                            <label for="radio-telefone"><input type="radio" value="radio-telefone" id="radio-telefone" name="contato"> Telefone</label>
-        
-                            <label for="radio-whatsapp"><input type="radio" value="radio-whatsapp" id="radio-whatsapp" name="contato" checked> Whatsapp</label>
+                <div class="container">
+                    <div class="formulario">
+                        <form>
+                            <label for="registro-nome">Nome<input type="text" id="registro-nome" class="input-padrao" required></label>
+            
+                            <label for="registro-email">Email<input type="email" id="registro-email" class="input-padrao" placeholder="seuemail@dominio.com" required></label>
+            
+                            <label for="registro-telefone">Telefone<input type="tel" id="registro-telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required></label>
+            
+                            <label>Mensagem<textarea cols="30" rows= 10 class="input-padrao" required></textarea></label>
+            
+                            <div>
+                                <p>Como prefere nosso contato?</p>
+            
+                                <label for="radio-email"><input type="radio" value="radio-email" id="radio-email" name="contato"> Email</label>
+            
+                                <label for="radio-telefone"><input type="radio" value="radio-telefone" id="radio-telefone" name="contato"> Telefone</label>
+            
+                                <label for="radio-whatsapp"><input type="radio" value="radio-whatsapp" id="radio-whatsapp" name="contato" checked> Whatsapp</label>
+                            </div>
+
+                            <div class="opcao-horario">
+                                <p>Qual horário pretende ser atendido?</p>
+
+                                <select>
+                                    <option>Manhã</option>
+                                    <option>Tarde</option>
+                                    <option>Noite</option>
+                                </select>
+                            </div>
+
+                            <label for="novidade"><input type="checkbox" id="novidade" class="checkbox" checked> Gostaria de receber nossas novidades por e-mail</label>
+            
+                            <div id="button">
+                                <input type="submit" value="Enviar" class="botaoEnviar">
+                            </div>
+                        </form>
+
+                        <div class="tabela-horario">
+                            <h2 class="titulo-principal">Horário de Funcionamento</h2>
+                        
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Dia</th>
+                                        <th>Horário</th>
+                                    </tr>
+                                </thead> 
+                                <tbody>
+                                    <tr>
+                                        <td>Segunda-Feira</td>
+                                        <td>08h00 - 20h00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Terça-Feira</td>
+                                        <td>08h00 - 20h00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Quarta-Feira</td>
+                                        <td>08h00 - 20h00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Quinta-Feira</td>
+                                        <td>08h00 - 20h00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sexta-Feira</td>
+                                        <td>08h00 - 18h00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sábado</td>
+                                        <td>08h00 - 12h00</td>
+                                    </tr>
+                                     <tr>
+                                        <td>Domingo</td>
+                                        <td>Fechado</td>
+                                    </tr>
+                                 </tbody>
+                            </table>
                         </div>
-
-                        <div class="opcao-horario">
-                            <p>Qual horário pretende ser atendido?</p>
-
-                            <select>
-                                <option>Manhã</option>
-                                <option>Tarde</option>
-                                <option>Noite</option>
-                            </select>
-                        </div>
-
-                        <label for="novidade"><input type="checkbox" id="novidade" class="checkbox" checked> Gostaria de receber nossas novidades por e-mail</label>
-        
-                        <input type="submit" value="Enviar" class="button">
-                    </form>
-
-                    <div class="tabela-horario">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Dia</th>
-                                    <th>Horário</th>
-                                </tr>
-                            </thead> 
-                            <tbody>
-                                <tr>
-                                    <td>Segunda-Feira</td>
-                                    <td>08h00 - 20h00</td>
-                                </tr>
-                                <tr>
-                                    <td>Terça-Feira</td>
-                                    <td>08h00 - 20h00</td>
-                                </tr>
-                                <tr>
-                                    <td>Quarta-Feira</td>
-                                    <td>08h00 - 20h00</td>
-                                </tr>
-                                <tr>
-                                    <td>Quinta-Feira</td>
-                                    <td>08h00 - 20h00</td>
-                                </tr>
-                                <tr>
-                                    <td>Sexta-Feira</td>
-                                    <td>08h00 - 18h00</td>
-                                </tr>
-                                <tr>
-                                    <td>Sábado</td>
-                                    <td>08h00 - 12h00</td>
-                                </tr>
-                                <tr>
-                                    <td>Domingo</td>
-                                    <td>Fechado</td>
-                                </tr>
-                            </tbody>
-                        </table>
                     </div>
                 </div>
             </main>

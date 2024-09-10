@@ -295,7 +295,7 @@ form label, form p {
 	margin: 10px 0;
 }
 
-.button {
+.botaoEnviar {
 	width: 50%;
 	padding: 7px 0;
 	font-size: 18px;
@@ -306,7 +306,7 @@ form label, form p {
 	transition: 1s all;
 }
 
-.button:hover {
+.botaoEnviar:hover {
 	background: #baf400;
 	transform: scale(1.03);
 }
@@ -439,12 +439,12 @@ td, th {
 		text-align: justify;
 		font-size: 14px;
 		margin: 0 0 1em;
-		font-weight: 400;
+		font-weight: 500;
 		line-height: 1.5;
 	}
 	
 	.itens:before {
-		font-size: 14px;
+		font-size: 12px;
 		content: "➔ ";
 	}
 
@@ -486,7 +486,7 @@ td, th {
 		margin: 0 15px 0 15px;
 	}
 
-	}/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+	/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 
 
@@ -494,8 +494,8 @@ td, th {
 
 	.produtos {
 		width: auto;
-		margin: 0 auto;
 		padding: 0;
+		text-align: center;
 	}
 	
 	.produtos li {
@@ -535,3 +535,91 @@ td, th {
 		font-weight: bold;
 		margin-top: 10px;
 	}
+
+	/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+
+
+	/* -=-=-=-=-=-=- CSS DA PÁGINA >>> CONTATO <<< -=-=-=-=-=-=- */
+
+	.container {
+		display: flex;
+  		justify-content: center;
+		padding: 20px 0;
+	}
+
+	form {
+		padding: 0;
+		margin: 0 0 15px;
+		color: black;
+	}
+	
+	.formulario {
+		width: auto;
+	}
+	
+	form label, form p {
+		display:block;
+		font-size: 14px;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.input-padrao {
+		display: block;
+		margin: 3px 0 15px;
+		padding: 2.5% 2.5%;
+		width: 95%;
+		border: none;
+	}
+	
+	.opcao-horario {
+		margin: 15px 0 0 0;
+	}
+	
+	.checkbox {
+		margin: 15px 0;
+	}
+
+	#button {
+		text-align: center;
+	}
+	
+	.botaoEnviar {
+		width: 50%;
+		padding: 7px 0;
+		font-size: 18px;
+		font-weight: bold;
+		background: #f3ff77;
+		border-radius: 8px;
+		cursor: pointer;
+		transition: 1s all;
+		margin: 0 0 40px;
+	}
+	
+	.botaoEnviar:hover {
+		background: #baf400;
+		transform: scale(1.03);
+	}
+	
+	.tabela-horario {
+		padding: 0;
+	}
+
+	table {
+		margin: 0 auto;
+	}
+	
+	thead {
+		background-color: white;
+		color: #000000;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	
+	td, th {
+		border: 1px solid black;
+		padding: 10px;
+		text-align: center;
+	}
+}
