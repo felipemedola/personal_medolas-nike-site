@@ -330,11 +330,11 @@ td, th {
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
-/* MAX WIDTH = 1300PX ------------------- MAX WIDTH = 1300PX
+/* MAX WIDTH = 1080PX ------------------- MAX WIDTH = 1080PX
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1080px) {
 
 	header {
 		background: linear-gradient(to bottom, #B0E0E6, #87CEEB);
