@@ -328,14 +328,322 @@ td, th {
 	text-align: center;
 }
 
-/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 /* MAX WIDTH = 1080PX ------------------- MAX WIDTH = 1080PX
 
-/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 @media screen and (max-width: 1080px) {
 
+	header {
+		background: linear-gradient(to bottom, #B0E0E6, #87CEEB);
+		color: white;
+		padding: 0 0 15px;
+		border-bottom: 4px dashed rgb(255, 255, 255);
+	}
+
+	footer {
+		background-color: #4682B4;
+		text-align: center;
+		color: white;
+		padding: 15px 0;
+		border-top: 4px dashed rgb(255, 255, 255);
+	}
+
+	nav {
+		text-align: center;
+		position: static;
+	}
+
+	nav a {
+		color: rgb(0, 0, 0);
+		font-size: 18px;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-family: "Roboto", sans-serif;
+		font-weight: bold;
+		font-style: normal;
+	}
+
+	nav li {
+		display: inline-block;
+		margin: 0 0 0 12px;
+	}
+
+	.copyright {
+		color: #000000;
+		font-size: 14px;
+		margin: 10px 0 0;
+	}
+
+	/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+
+
+	/* -=-=-=-=-=-=- CSS DA PÁGINA >>> HOME <<< -=-=-=-=-=-=- */
+
+	.caixa, .principal, .config-titulo-principal, .conteudo-principal, .conteudo-beneficios, .video {
+		width: auto;
+	}
+
+	.principal, .beneficios {
+		margin: 0 24px 0 24px;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.principal {
+		text-align: center;
+	}
+
+	.titulo-principal {
+		margin: 0 auto;
+		text-align: center;
+		font-size: 2em;
+		padding: 1em 0 1em;
+		font-family: "Anton", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		text-transform: uppercase;
+		display: inline-block;
+		clear: left;
+	}
+
+	.principal p {
+		text-align: center;
+		font-size: 14px;
+		margin: 0 0 1em;
+		font-weight: 400;
+		line-height: 1.4;
+		padding: 8px;
+	}
+
+	.imagem-principal {
+		display: inline-block;
+	}
+
+	.utensilios {
+		width: 75px;
+		margin: -30px 0 0;
+	}
+
+	.mapa p {
+		text-align: center;
+		font-size: 14px;
+		margin: 0 0 1em;
+		font-weight: 400;
+	}
+
+	.itens {
+		text-align: justify;
+		font-size: 14px;
+		margin: 0 0 1em;
+		font-weight: 500;
+		line-height: 1.5;
+	}
+	
+	.itens:before {
+		font-size: 12px;
+		content: "➔ ";
+	}
+
+	.conteudo-beneficios {
+		display: inline-block;
+		text-align: center;
+	}
+
+	.lista-beneficios {
+		width: 100%;
+		text-align: justify;
+	}
+
+	.imagem-beneficios {
+		margin: 0 auto -60px;
+		width: 40%;
+	}
+
+	/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+
+
+	/* -=-=-=-=-=-=- CSS DA PÁGINA >>> A EMPRESA <<< -=-=-=-=-=-=- */
+
+	.empresa {	
+		margin: 0 24px 0 24px;
+	}
+
+	.empresa-conteudo {
+		margin: 0 auto;
+		width: auto;
+	}
+	
+	.empresa-conteudo p{
+		line-height: 1.4;
+		color: #000000;
+		box-sizing: border-box;
+		display: block;
+		font-size: 14px;
+		font-weight: 400;
+		margin: 0 auto;
+		width: auto;
+		padding: 0 0 8px;
+	}
+
+	/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+
+
+	/* -=-=-=-=-=-=- CSS DA PÁGINA >>> PRODUTOS <<< -=-=-=-=-=-=- */
+
+	.produtos {
+		width: auto;
+		padding: 0;
+		text-align: center;
+		padding: 24px 0 0;
+	}
+	
+	.produtos li {
+		margin: 0 0 24px;
+		display: inline-block;
+		text-align: center;
+		width: 90%;
+		box-sizing: border-box;
+		border: 2px solid #ffffff;
+		border-radius: 10px;
+	}
+
+	
+	.produtos li:hover {
+		border-color: #baf400;
+	}
+	
+	.produtos li:active {
+		border-color: #09ff00;
+	}
+	
+	.produtos li:hover h2 {
+		font-size: 19px;
+		font-weight: bolder;
+	}
+	
+	.produtos h2 {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+	.produto-descricao {
+		font-size: 14px;
+	}
+	
+	.produto-preco {
+		font-size: 14px;
+		font-weight: bold;
+		margin-top: 10px;
+	}
+
+	/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+
+
+	/* -=-=-=-=-=-=- CSS DA PÁGINA >>> CONTATO <<< -=-=-=-=-=-=- */
+
+	.container {
+		display: flex;
+  		justify-content: center;
+		margin: 0 24px 0 24px;
+		padding: 24px 0;
+	}
+
+	form {
+		padding: 0;
+		margin: 0 0 15px;
+		color: black;
+	}
+	
+	.formulario {
+		width: auto;
+	}
+	
+	form label, form p {
+		display:block;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 1.4;
+		margin: 0;
+		padding: 0;
+
+	}
+	
+	.input-padrao {
+		display: block;
+		margin: 3px 0 15px;
+		padding: 2.5% 2.5%;
+		width: 95%;
+		border: none;
+	}
+	
+	.opcao-horario {
+		margin: 15px 0 0 0;
+	}
+	
+	.checkbox {
+		margin: 15px 0;
+	}
+
+	#button {
+		text-align: center;
+	}
+	
+	.botaoEnviar {
+		width: 50%;
+		padding: 7px 0;
+		font-size: 18px;
+		font-weight: bold;
+		background: #f3ff77;
+		border-radius: 8px;
+		cursor: pointer;
+		transition: 1s all;
+		margin: 0 0 40px;
+	}
+	
+	.botaoEnviar:hover {
+		color: #000000;
+		background: #baf400;
+		transform: scale(1.03);
+	}
+	
+	.tabela-horario {
+		padding: 0;
+	}
+
+	table {
+		margin: 0 auto;
+	}
+	
+	thead {
+		background-color: rgb(255, 255, 255);
+		color: #000000;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	
+	td, th {
+		border: 1.2px solid black;
+		padding: 10px;
+		text-align: center;
+	}
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+/* MAX WIDTH = 1170PX ------------------- MAX WIDTH = 1170PX
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+@media screen and (max-width: 1170px) {
 	header {
 		background: linear-gradient(to bottom, #B0E0E6, #87CEEB);
 		color: white;
