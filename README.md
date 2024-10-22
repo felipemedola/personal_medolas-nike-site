@@ -54,5 +54,5 @@ O objetivo do **Medola's Nike** foi colocar em prática os conceitos aprendidos 
 
 ## **Links do Projeto**
 
-- [**Projeto Original da Alura**](https://felipemedola.github.io/barbearia-alura/) - Este é o projeto desenvolvido durante o curso de HTML5 e CSS3 da Alura, que serviu como base para o desenvolvimento do **Medola's Nike**.
-- [**Medola's Nike - Projeto Personalizado**](https://felipemedola.github.io/medolas-nike-site) - Este é o site personalizado que desenvolvi, inspirado na marca Nike, aplicando os conhecimentos adquiridos no curso.
+- [**Projeto Original da Alura**](https://felipemedola.github.io/alura_barbeariaalura/) - Este é o projeto desenvolvido durante o curso de HTML5 e CSS3 da Alura, que serviu como base para o desenvolvimento do **Medola's Nike**.
+- [**Medola's Nike - Projeto Personalizado**](https://felipemedola.github.io/personal_medolas-nike-site/) - Este é o site personalizado que desenvolvi, inspirado na marca Nike, aplicando os conhecimentos adquiridos no curso.
