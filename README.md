@@ -48,6 +48,9 @@ O curso de HTML5 e CSS3 teve uma carga horária de 32 horas, dividido em quatro 
 - **HTML5**: Para a estruturação da página.
 - **CSS3**: Para estilização e design responsivo.
 
+[📚 Página do curso "HTML5 e CSS3 - Primeiros Passos"](https://www.alura.com.br/curso-online-html5-css3-primeiros-passos)<br>
+[🎓 Página da formação "Iniciante em Programação"](https://www.alura.com.br/formacao-programacao)
+
 ## **Objetivo do Projeto**
 
 O objetivo do **Medola's Nike** foi colocar em prática os conceitos aprendidos no curso, criando um site funcional e visualmente atraente, que destaca a marca e produtos de maneira envolvente e personalizada.
